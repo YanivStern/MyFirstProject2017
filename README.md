@@ -13,5 +13,15 @@ var x;
 var x=7;
 document.getElementById("demo").innerHTML = x;
 </script>
+
+<p>Click the button to display an alert box.</p>
+
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+    alert("Hello! I am an alert box!");
+}
+</script>
 </body>
 </html>
